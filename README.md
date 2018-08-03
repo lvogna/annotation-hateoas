@@ -4,7 +4,7 @@
 
 This project aims to make the usage of [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) easier. 
 
-[Given](https://docs.cucumber.io/gherkin/reference/) a service defined as
+[Given](https://docs.cucumber.io/gherkin/reference/) a [service](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Service.html) defined as
 
 ```java
 public class DomainStringService implements StringService {
@@ -15,7 +15,7 @@ public class DomainStringService implements StringService {
 }
 ```
 
-And a controller defined as
+[And](https://docs.cucumber.io/gherkin/reference/) a [controller](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RestController.html) defined as
 
 ```java
 public class HateoasStringController {
