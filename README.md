@@ -1,6 +1,6 @@
 # annotation-hateoas
 
-<b>Problem</b>
+# Problem
 
 This project aims to make the usage of [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) easier. 
 
@@ -32,7 +32,7 @@ public class HateoasStringController {
 3) the security should affect the links provided by HATEOAS;
 4) the authorized links should be added to the response transparently, without boilerplate in the controller;
 
-<b>Approach</b>
+# Approach
 
 [DomainModel](https://domainlanguage.com/ddd/)
 - derives [ServiceModel](http://docs.oasis-open.org/soa-rm/soa-ra/v1.0/cs01/soa-ra-v1.0-cs01.html);
