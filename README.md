@@ -4,7 +4,7 @@
 
 This project aims to make the usage of [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) easier. 
 
-Given a service defined as
+[Given](https://docs.cucumber.io/gherkin/reference/) a service defined as
 
 ```java
 public class DomainStringService implements StringService {
@@ -26,7 +26,7 @@ public class HateoasStringController {
 }
 ```
 
-Then
+[Then](https://docs.cucumber.io/gherkin/reference/)
 1) the security must written in one place, preferably the Service;
 2) the security should be inherited by the controller;
 3) the security should affect the links provided by HATEOAS;
