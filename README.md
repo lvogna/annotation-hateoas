@@ -2,7 +2,7 @@
 
 <b>Problem</b>
 
-This project aims to make the usage of Hateoas easier. 
+This project aims to make the usage of [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) easier. 
 
 Given a service defined as
 
@@ -29,7 +29,7 @@ public class HateoasStringController {
 Then
 1) the security must written in one place, preferably the Service;
 2) the security should be inherited by the controller;
-3) the security should affect the links provided by hateoas;
+3) the security should affect the links provided by HATEOAS;
 4) the authorized links should be added to the response transparently, without boilerplate in the controller;
 
 <b>Approach</b>
