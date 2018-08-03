@@ -46,7 +46,7 @@ Then
 - derives [ResourceModel](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm);
 
 ```java
-   @ResourceModel(rel="myToLowerCaseOperation", @DomainModel(uniqueIdentifier))
+   @ResourceModel(rel="myToLowerCaseAction", @DomainModel(uniqueIdentifier))
    public HttpEntity<StringResource> toLowerCase(@PathVariable String string);
 ```
 
