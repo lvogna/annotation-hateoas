@@ -34,8 +34,8 @@ Then
 
 <b>Approach</b>
 
-DomainModel
-- derives ServiceModel;
+[DomainModel](https://domainlanguage.com/ddd/)
+- derives [ServiceModel](http://docs.oasis-open.org/soa-rm/soa-ra/v1.0/cs01/soa-ra-v1.0-cs01.html);
 
 ```java
     @ServiceModel(@DomainModel(uniqueIdentifier))
@@ -43,7 +43,7 @@ DomainModel
     public HttpEntity<StringResource> toLowerCase(@PathVariable String string);
 ```
     
-- derives ResourceModel;
+- derives [ResourceModel](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm);
 
 ```java
    @ResourceModel(rel="myToLowerCaseOperation", @DomainModel(uniqueIdentifier))
