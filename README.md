@@ -32,6 +32,8 @@ public class HateoasStringController {
 3) the security should affect the links provided by HATEOAS;
 4) the authorized links should be added to the response transparently, without boilerplate in the controller;
 
+---
+
 # Approach
 
 [DomainModel](https://domainlanguage.com/ddd/)
