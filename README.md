@@ -21,8 +21,7 @@ And a controller defined as
 public class HateoasStringController {
    public HttpEntity<StringResource> toLowerCase(@PathVariable String string) {
         final String toLowerString = stringService.toLowerCase(string);
-        return new ResponseEntity<>(new StringResource(toLowerString),
-                HttpStatus.OK);
+        return new ResponseEntity<>(new StringResource(toLowerString), HttpStatus.OK);
     }
 }
 ```
